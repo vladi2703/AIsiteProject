@@ -1,0 +1,140 @@
+
+body {background-color: black;
+margin: 10px;}
+
+head {background-color: black;}
+
+
+
+footer{
+  width: 100%;
+  float: right;
+  color:white;
+  background-color: #212020;
+}
+div.a {
+    width: 500px;
+    margin-left: 30%;
+  }
+  
+  /* Стил на линковете в менюто */
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: "COMIC SANS MS";
+    color: white;
+  }
+  
+  .title{
+    background-color: black;
+    padding: 20px;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 45px; 
+    color: white;
+    margin-left: 3%;
+  }     
+  
+  .content{
+    background-color: black;
+    padding: 20px;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px; 
+    color: white;
+    margin-left: 3%;
+    margin-right: 5%;
+  }
+
+  .tryfont{
+    font-family: myFirstFont;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url(AmistRegular.ttf);
+  }
+
+  
+
+
+ /* Галерия */
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    float: left;
+  }
+
+  
+ /* Inndex */
+
+ .topnav1 {
+  overflow: hidden;
+  float: left;
+}
+.topnav1 a {
+  float: left;
+  display: block;
+  color: olivedrab;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 1;
+}
+.topnav1 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+  .welcome{
+    position: relative;
+    margin: 25px;
+  }
+
+  header{
+    background-image: url(img/ai-and-dev.jpg  );
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
